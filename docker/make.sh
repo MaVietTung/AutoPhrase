@@ -6,7 +6,7 @@ if REPO_URL=$(git remote get-url origin) 2> /dev/null; then
     REPO=$(echo $REPO_URL | sed "s/\.git//")
     BRANCH=$(git rev-parse --abbrev-ref HEAD)
 else
-    REPO=https://github.com/shangjingbo1226/AutoPhrase  
+    REPO=https://github.com/MaVietTung/AutoPhrase.git  
     BRANCH=master
 fi
 
